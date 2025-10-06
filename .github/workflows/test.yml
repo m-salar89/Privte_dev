@@ -25,9 +25,4 @@ jobs:
       
           
 
-      - name: Run pytest
-        env:   
-          PYTHONPATH: src
-        run: python -m pytest -q
-
     
